@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color:#FFBABA;
+}
+
+.navbar {
+    background-color: #6E1717;
+    padding: 15px 20px;
+    width: 100%;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #FFBABA;
+}
