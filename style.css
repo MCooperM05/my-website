@@ -3,7 +3,6 @@ body {
     padding: 0;
     background-color:#FFBABA;
     background-image: url("images/rush_no_pixels.png");
-    background-size: contain;
     background-position: center calc(45px);
     background-repeat: no-repeat;
 }
@@ -12,6 +11,7 @@ body {
     background-color: #6E1717;
     padding: 15px 20px;
     width: 100%;
+    box-sizing: border-box;
 }
 
 .navbar ul {
