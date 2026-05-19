@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     background-color:#FFBABA;
-    background-image: url("images/rush_no_pixels.png");
+    background-image: url("images/rush_short.png");
     background-position: center calc(45px);
     background-repeat: no-repeat;
 }
