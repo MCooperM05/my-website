@@ -27,3 +27,9 @@ body {
     text-decoration: none;
     color: #FFBABA;
 }
+
+h1 {
+    text-align: center;
+    color: #F5F1E8;
+    margin-top: 50px;
+}
