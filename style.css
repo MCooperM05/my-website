@@ -55,6 +55,9 @@ section p {
     font-size: clamp(8px, 2.5vw, 16px);
     margin-top: 10px;
     margin-bottom: 0;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Home and About sections - overlaid on image */
