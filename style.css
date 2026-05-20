@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #000000;
+    background-color: #FFBABA;
     font-family: Georgia, 'Times New Roman', Times, serif
 }
 
@@ -9,6 +9,7 @@ body {
     position: relative;
     display: inline-block;
     width: 100%;
+    background-color: #000000;
 }
 
 .bg-image {
@@ -42,9 +43,16 @@ body {
     color: #FFBABA;
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2 {
     text-align: center;
     color: #F5F1E8;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: clamp(12px, 5vw, 24px);
+}
+h3, h4, h5 {
+    text-align: center;
+    color: #000000;
     margin-top: 0;
     margin-bottom: 0;
     font-size: clamp(12px, 5vw, 24px);
@@ -55,7 +63,7 @@ section p {
     font-size: clamp(8px, 2.5vw, 16px);
     margin-top: 10px;
     margin-bottom: 0;
-    max-width: 600px;
+    max-width: 500px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -110,8 +118,13 @@ section p {
 
 /* Other sections - below the image area */
 .skills, .projects, .contact {
-    background-color: rgba(0, 0, 0, 0.5);
     padding: 40px 20px;
     margin-top: 50px;
     box-sizing: border-box;
+}
+
+.skills p,
+.projects p,
+.contact p {
+    color: #000000;
 }
