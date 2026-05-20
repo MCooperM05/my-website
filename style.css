@@ -120,7 +120,7 @@ section p {
 /* Other sections - below the image area */
 .skills, .projects, .contact {
     padding: 40px 20px;
-    margin-top: 25px;
+    margin-top: 15px;
     box-sizing: border-box;
 }
 .skills p,
