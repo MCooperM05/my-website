@@ -137,14 +137,14 @@ section p {
     flex-wrap: wrap;
 }
 .skills-list .skill-item {
-    background-color: rgba(255, 255, 255, 0.90);
+    background-color: rgba(255, 255, 255, 0.08);
     border-radius: 10%;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100px;
     height: 100px;
-    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
 }
 .skills-list .skill-item img {
     width: 80px;
