@@ -5,6 +5,10 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .image-container {
     position: relative;
     display: inline-block;
@@ -71,6 +75,7 @@ section p {
 
 /* Home and About sections - overlaid on image */
 .home {
+    scroll-margin-top: 100px;
     position: absolute;
     top: 5%;
     left: 50%;
@@ -106,6 +111,7 @@ section p {
 }
 
 .about {
+    scroll-margin-top: 100px;
     position: absolute;
     bottom: 5%;
     left: 50%;
@@ -119,6 +125,7 @@ section p {
 
 /* Other sections - below the image area */
 .skills, .projects, .contact {
+    scroll-margin-top: 100px;
     padding: 20px 20px;
     margin-top: 10px;
     box-sizing: border-box;
