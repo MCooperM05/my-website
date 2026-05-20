@@ -134,7 +134,17 @@ section p {
     margin-top: 20px;
     flex-wrap: wrap;
 }
-.skills-list img {
+.skills-list .skill-item {
+    background-color: rgba(0, 0, 0, 0.15);
+    border-radius: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
+}
+.skills-list .skill-item img {
     width: 80px;
     height: 80px;
     object-fit: contain;
