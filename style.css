@@ -241,14 +241,17 @@ section p {
     width: 100%;
     padding: 20px;
     box-sizing: border-box;
-    text-align: center;
     margin-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
 }
-
 .copyright p {
     color: #FFBABA;
     margin: 0;
-    text-align: center;
-    max-width: none;
-    width: 100%;
+}
+.copyright img {
+    width: 20px;
+    height: 20px;
 }
