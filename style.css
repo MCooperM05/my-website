@@ -132,6 +132,7 @@ section p {
 }
 .skills p,
 .projects p,
+.websites p,
 .contact p {
     color: #000000;
 }
@@ -231,6 +232,60 @@ section p {
 }
 
 .projects-list .project-item a h {
+    margin: 0;
+    color: #FFBABA;
+    font-size: clamp(10px, 2vw, 14px);
+}
+
+.websites-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.websites-list .websites-item {
+    background-color: #6E1717;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 20px;
+    width: 280px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
+    text-align: center;
+}
+
+.websites-list .websites-item h {
+    color: #F5F1E8;
+    margin: 0 0 10px 0;
+    font-size: clamp(12px, 3vw, 20px);
+    font-weight: 600;
+}
+
+.websites-list .websites-item p {
+    color: #F5F1E8;
+    margin: 0 0 15px 0;
+    font-size: clamp(8px, 2vw, 16px);
+}
+
+.websites-list .websites-item a {
+    color: #F5F1E8;
+    text-decoration: none;
+    font-size: clamp(10px, 2vw, 18px);
+}
+
+.websites-list .websites-item a:hover {
+    background-color: #F5F1E8;
+}
+
+.websites-list .websites-item a:visited {
+    background-color: #310a0a;
+}
+
+.websites-list .websites-item a h {
     margin: 0;
     color: #FFBABA;
     font-size: clamp(10px, 2vw, 14px);
